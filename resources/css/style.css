@@ -121,5 +121,5 @@ header{
 .main-nav li a:hover,
 .main-nav li a:active{
 	border-bottom: 2px solid #e67e22;
-	/*color: #e67e22;*/
+	color: #e67e22;
 }
