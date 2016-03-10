@@ -62,6 +62,13 @@ h2:after{
 	margin-top: 30px;
 }
 
+/* -------- PARAGRAPHS --------- */
+.long-copy{
+	width: 68%;
+	line-height: 145%;
+	margin: 0 auto;
+}
+
 /* -------- BUTTONS --------- */
 .btn:link,
 .btn:visited{
