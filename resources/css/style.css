@@ -73,13 +73,20 @@ h2:after{
 
 /* -------- PARAGRAPHS --------- */
 .long-copy{
-	width: 68%;
+	width: 70%;
 	line-height: 145%;
-	margin: 0 auto;
+	margin-left: 15%;
 }
 .box p{
 	font-size: 90%;
 	line-height: 145%;
+}
+
+/* -------- ICONS --------- */
+.icon-big{
+	font-size: 350%;
+	color: #e67e22;
+	display: block;
 }
 
 /* -------- BUTTONS --------- */
