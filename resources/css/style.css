@@ -170,3 +170,24 @@ header{
 	border-bottom: 2px solid #e67e22;
 	color: #e67e22;
 }
+
+/* ------------------------------------------------- */
+/* MEALS  */
+/* ------------------------------------------------- */
+.meals-showcase{
+	width: 100%;
+	list-style: none;
+}
+.meals-showcase li{
+	display: block;
+	float: left;
+	width: 25%;
+}
+.meal-image{
+	width: 100%;
+	margin: 0;
+}
+.meal-image img{
+	width: 100%;
+	height: auto;
+}
