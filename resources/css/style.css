@@ -19,6 +19,13 @@ html{
 	font-size: 20px;
 	text-rendering: optimizeLegibility;
 }
+.clearfix:after{
+	content: "";
+	display: block;
+	height: 0;
+	visibility: hidden;
+	clear: both;
+}
 
 /* ------------------------------------------------- */
 /* REUSABLE COMPONENTS  */
@@ -29,7 +36,7 @@ html{
 	margin: 0 auto;
 }
 section{
-	margin-top: 80px;
+	padding: 80px 0;
 }
 .box{
 	padding: 1%;
@@ -182,6 +189,9 @@ header{
 /* ------------------------------------------------- */
 /* MEALS  */
 /* ------------------------------------------------- */
+.section-meals{
+	padding: 0;
+}
 .meals-showcase{
 	width: 100%;
 	list-style: none;
@@ -207,4 +217,48 @@ header{
 .meal-image img:hover{
 	opacity: 1;
 	transform: scale(1.04);
+}
+
+/* ------------------------------------------------- */
+/* HOW IT WORKS */
+/* ------------------------------------------------- */
+
+.section-steps{
+	background-color: #f4f4f4;
+}
+.steps-box:first-child{
+	text-align: right;
+	padding-right: 3%;
+	margin-top: 30px;
+}
+.steps-box:last-child{
+	padding-right: 3%;
+	margin-top: 70px;
+}
+.app-screen{
+	width: 40%;
+}
+.work-step{
+	margin-bottom: 50px;
+}
+.work-step:last-of-type{
+	margin-bottom: 80px;
+}
+.work-step div{
+	display: inline-block;
+	color: #e67e22;
+	border: 2px solid #e67e22;
+	margin-right: 20px;
+	border-radius: 50%;
+	height: 50px;
+	width: 50px;
+	text-align: center;
+	padding: 5px;
+	float: left;
+	font-size: 150%;
+}
+.btn-app img{
+	height: 50px;
+	width: auto;
+	margin-right: 10px;
 }
