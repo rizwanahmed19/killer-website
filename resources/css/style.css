@@ -19,6 +19,9 @@ html{
 	font-size: 20px;
 	text-rendering: optimizeLegibility;
 }
+.clearfix{
+	zoom: 1;
+}
 .clearfix:after{
 	content: "";
 	display: block;
@@ -226,14 +229,17 @@ header{
 .section-steps{
 	background-color: #f4f4f4;
 }
+.steps-box{
+	margin-top: 30px;
+}
 .steps-box:first-child{
 	text-align: right;
 	padding-right: 3%;
-	margin-top: 30px;
 }
 .steps-box:last-child{
-	padding-right: 3%;
+	padding-left: 3%;
 	margin-top: 70px;
+	text-align: left;
 }
 .app-screen{
 	width: 40%;
@@ -248,10 +254,10 @@ header{
 	display: inline-block;
 	color: #e67e22;
 	border: 2px solid #e67e22;
-	margin-right: 20px;
+	margin-right: 25px;
 	border-radius: 50%;
-	height: 50px;
-	width: 50px;
+	height: 54px;
+	width: 54px;
 	text-align: center;
 	padding: 5px;
 	float: left;
