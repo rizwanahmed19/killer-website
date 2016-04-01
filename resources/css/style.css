@@ -86,6 +86,7 @@ h2:after{
 	width: 70%;
 	line-height: 145%;
 	margin-left: 15%;
+	/*margin: 0 auto;*/
 }
 .box p{
 	font-size: 90%;
@@ -214,12 +215,12 @@ header{
 	opacity: 0.7;
 	width: 100%;
 	height: auto;
-	transform: scale(1.15);
+	transform: scale(1.17);
 	transition: transform 0.5s ease, opacity 0.5s ease;
 }
 .meal-image img:hover{
 	opacity: 1;
-	transform: scale(1.04);
+	transform: scale(1.05);
 }
 
 /* ------------------------------------------------- */
@@ -259,7 +260,7 @@ header{
 	height: 54px;
 	width: 54px;
 	text-align: center;
-	padding: 5px;
+	padding-top: 7px;
 	float: left;
 	font-size: 150%;
 }
@@ -268,3 +269,7 @@ header{
 	width: auto;
 	margin-right: 10px;
 }
+
+/* ------------------------------------------------- */
+/* CITIES */
+/* ------------------------------------------------- */
