@@ -317,3 +317,11 @@ header{
 .cities-feature{
 	margin-bottom: 5px;
 }
+
+/* ------------------------------------------------- */
+/* TESTIMONIALS */
+/* ------------------------------------------------- */
+
+.section-testimonials{
+	background-image: url(img/back-customers.jpg);
+}
