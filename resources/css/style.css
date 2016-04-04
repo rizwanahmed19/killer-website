@@ -100,6 +100,35 @@ h2:after{
 	display: block;
 	margin-bottom: 10px;
 }
+.icon-small{
+	color: #e67e22;
+	font-size: 120%;
+	width: 30px;
+	display: inline-block;
+	text-align: center;
+	margin-right: 10px;
+
+	/*Align text and icons*/
+	line-height: 120%;
+	vertical-align: middle;
+	margin-top: -6px;
+}
+
+/* -------- LINKS --------- */
+a:link,
+a:visited{
+	color: #e67e22;
+	text-decoration: none;
+	padding-bottom: 1px;
+	border-bottom: 1px solid #e67e22;
+	transition: border-bottom .2s ease, color .2s ease;
+
+}
+a:active,
+a:hover{
+	color: #555;
+	border-bottom: 1px solid transparent;
+}
 
 /* -------- BUTTONS --------- */
 .btn:link,
@@ -264,6 +293,10 @@ header{
 	padding-top: 7px;
 	float: left;
 	font-size: 150%;
+}
+.btn-app:link,
+.btn-app:visited{
+	border: 0;
 }
 .btn-app img{
 	height: 50px;
